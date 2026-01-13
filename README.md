@@ -12,12 +12,12 @@
 ---
 
 ## 🧪 Test Folder Structure
+
+<pre>
 demoqa-playwright-assignment/
-│
-├── tests/                         # All test specifications
+├── tests/
 │   ├── e2e/
-│   │   ├── demoqa.e2e.spec.ts     # Complete end-to-end user journey
-│   │
+│   │   └── demoqa.e2e.spec.ts
 │   ├── elements/
 │   │   ├── textBox.spec.ts
 │   │   ├── checkBox.spec.ts
@@ -25,26 +25,21 @@ demoqa-playwright-assignment/
 │   │   ├── webTables.spec.ts
 │   │   ├── buttons.spec.ts
 │   │   ├── links.spec.ts
-│   │   ├── uploadDownload.spec.ts
-│   │
+│   │   └── uploadDownload.spec.ts
 │   ├── forms/
 │   │   └── practiceForm.spec.ts
-│   │
 │   ├── alerts-frames/
 │   │   ├── alerts.spec.ts
-│   │   ├── frames.spec.ts
-│   │
+│   │   └── frames.spec.ts
 │   ├── widgets/
 │   │   ├── datePicker.spec.ts
-│   │   ├── toolTips.spec.ts
-│   │
-│   ├── interactions/
-│   │   ├── dragAndDrop.spec.ts
+│   │   └── toolTips.spec.ts
+│   └── interactions/
+│       └── dragAndDrop.spec.ts
 │
-├── pages/                         # Page Object Model (POM)
+├── pages/
 │   ├── base/
-│   │   └── BasePage.ts            # Common reusable actions
-│   │
+│   │   └── BasePage.ts
 │   ├── HomePage.ts
 │   ├── TextBoxPage.ts
 │   ├── CheckBoxPage.ts
@@ -57,28 +52,30 @@ demoqa-playwright-assignment/
 │   ├── AlertsPage.ts
 │   ├── FramesPage.ts
 │   ├── WidgetsPage.ts
-│   ├── InteractionsPage.ts
+│   └── InteractionsPage.ts
 │
-├── test-data/                     # Static test data
+├── test-data/
 │   ├── users.json
-│   ├── formData.json
+│   └── formData.json
 │
-├── utils/                         # Helpers & utilities
+├── utils/
 │   ├── testUtils.ts
-│   ├── waitHelpers.ts
+│   └── waitHelpers.ts
 │
-├── fixtures/                      # Playwright fixtures
+├── fixtures/
 │   └── testFixtures.ts
 │
-├── reports/                       # Test execution reports
+├── reports/
 │   ├── html-report/
 │   └── screenshots/
 │
-├── playwright.config.ts           # Playwright configuration
-├── package.json                   # Project dependencies & scripts
-├── tsconfig.json                  # TypeScript configuration
-├── README.md                      # Assignment instructions
+├── playwright.config.ts
+├── package.json
+├── tsconfig.json
+├── README.md
 └── .gitignore
+</pre>
+
 
 
 ## 📝 Evaluation Rubric (Optional)
